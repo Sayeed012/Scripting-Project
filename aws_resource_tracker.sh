@@ -11,8 +11,6 @@
 
 set -x
 
-# Clear the previous content of resourceTracker (optional)
-> resourceTracker
 
 # AWS S3 Buckets
 echo "List of S3 Buckets:" | tee -a resourceTracker
